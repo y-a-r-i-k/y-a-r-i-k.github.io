@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yarik - main page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 15px rgba(5, 5, 5, 2);
+        padding: 0.2em;
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="G.png" alt="G_logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About Me</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+    <div class="alert alert-secondary" role="alert">
+        <b>Some words about me.</b>
+    </div>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              About Me
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>About Me: <br></strong> 
+              My name is <i>Yarik</i>. I am a beginner Python programmer. 
+              <br>So far, I'm mainly engaged in machine learning, AI and neural networks. 
+              In addition, I'm interested in C++, operating systems, computer science, a bit of website development 
+              (I made this site), cryptocurrency and other topics. 
+              <br> I write articles on Habr and lead Twitter, create small online courses. 
+              In general, I am a versatile person. 
+              <br> I am currently working on several projects in my core areas. 
+              If you want to learn more, chat or help in development - the tab with contacts below.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Contact Me
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>My Contacts: <br></strong>
+              If you are interested in something, you want to chat or help, then my contacts are below:<br>
+            <b>-</b><i> Telegram:</i> <a href="https://t.me/anon239">@anon239</a><br>
+            <b>-</b><i> Twitter:</i> <a href="#">later...</a><br>
+            <b>-</b><i> GitHub:</i> <a href="https://github.com/y-a-r-i-k">y-a-r-i-k</a><br>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ...
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Empty</strong> 
+            </div>
+          </div>
+        </div>
+      </div>
